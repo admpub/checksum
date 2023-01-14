@@ -2,12 +2,13 @@ package checksum_test
 
 import (
 	"fmt"
-	"github.com/codingsince1985/checksum"
-	"github.com/mitchellh/go-homedir"
 	"io/ioutil"
 	"os"
 	"path"
 	"testing"
+
+	"github.com/admpub/checksum"
+	"github.com/mitchellh/go-homedir"
 )
 
 func prepareFile() (string, error) {
